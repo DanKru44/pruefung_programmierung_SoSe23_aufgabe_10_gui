@@ -4,4 +4,7 @@ in diesem Repo befindet sich die Teilaufgabe der Aufgabe 10 in der ein Programm 
 ## Kompilation 
 Das Programm kann mit einem beliebigen Compiler einfach kompiliert werden. Ich habe gcc verwendet.
 
-Beispiel: ``gcc -Wall -g main.c -o main.elf `pkg.config --cflags --libs gtk+-3.0```
+Beispiel: 
+```
+gcc -Wall -g main.c -o main.elf `pkg.config --cflags --libs gtk+-3.0`
+```
