@@ -4,4 +4,4 @@ in diesem Repo befindet sich die Teilaufgabe der Aufgabe 10 in der ein Programm 
 ## Kompilation 
 Das Programm kann mit einem beliebigen Compiler einfach kompiliert werden. Ich habe gcc verwendet.
 
-Beispiel: 'gcc main.c -o main.elf'
+Beispiel: `gcc main.c -o main.elf`
