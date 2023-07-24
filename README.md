@@ -8,3 +8,11 @@ Beispiel:
 ```
 gcc -Wall -g main.c -o main.elf `pkg.config --cflags --libs gtk+-3.0`
 ```
+
+## Ausführung 
+Das Programm kann einfach mit Befehl zum ausführen von Programmen gestartet werden. Wichtig hierbei ist das der X-Server gestartet sein muss, damit sich das Programm mit dem Server verbinden kann. Bei mir ist war dieser Schritt allerdings nicht zusätzlich notwendig.
+
+Beispiel für Ubuntu/WSL:
+```
+./main.elf
+```
